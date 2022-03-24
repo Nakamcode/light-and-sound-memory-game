@@ -1,0 +1,105 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #e0e0e0;
+  color: white; 
+}
+h1{
+  font-family: verdana, arial, sans-serif;
+  margin-top:8%;
+}
+h1,p{
+  color:black;
+}
+button{
+  padding: 10px 30px;
+  margin-bottom:10px;
+  border-radius: 10px;
+  color:White;
+  font-weight:bold;
+  border:none;
+}
+#startBtn{
+  background:green;
+}
+#stopBtn{
+  background:red;
+}
+#gameButtonArea > button{
+  width:200px;
+  height:200px;
+  margin:5px;
+}
+.hidden{
+  display:none;
+}
+#button1{
+  background:lightgreen;
+  box-shadow: 3px 3px 1px #b4b4b4;
+  font-size:6em;
+}
+#button2{
+  background:lightblue;
+  box-shadow: 3px 3px 1px #b4b4b4;
+}
+#button3{
+  background:lightpink;
+  box-shadow: 3px 3px 1px #b4b4b4;
+}
+#button4{
+  background:lightyellow;
+  box-shadow: 3px 3px 1px #b4b4b4;
+}
+#button5{
+  background:Darkorange;
+  box-shadow: 3px 3px 1px #b4b4b4;
+}
+#button6{
+  background:White;
+  box-shadow: 3px 3px 1px #b4b4b4;
+}
+#button1:active, #button1.lit{
+  background:green;
+}
+#button2:active, #button2.lit{
+  background:blue;
+}
+#button3:active, #button3.lit{
+  background:#ff788c;
+}
+#button4:active, #button4.lit{
+  background:yellow;
+}
+#button5:active, #button5.lit{
+  background:orange;
+}
+#button6:active, #button6.lit{
+  background:#acacac;
+}
+
+/* this where the after effect started*/
+
+/* #button1:active::after{
+  content:"1";
+  position:absolute;
+  top:0;
+  left:50px;
+  font-size:1.5em;
+  margin:0;
+  padding:0;
+}
+ */
