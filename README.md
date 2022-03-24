@@ -48,9 +48,7 @@ The following **additional** features are implemented:
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) <br><br>
 [ I tried to implement a feature whereby the pattern of the game changes whenever a pattern is play; I'm still finding a difficult achieving that!
-I wished to learn how to do this in this program!
-
-]
+I wished to learn how to do this in this program! ]
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) <br><br>
 [ I understand that this the Frontend version of the game, my question is how do I add Backend Development
